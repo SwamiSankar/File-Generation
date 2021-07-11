@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+}
+
+.container p {
+    font-weight: bold;
+}
+
+.container button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: #b3b1b6;
+}
+
+.container button {
+    margin-top: 25px;
+    width: 20%;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 25px;
+    background: #00d09c;
+    cursor: pointer;
+}
+
+.container #file-select {
+    padding: 7px 40px 7px 12px;
+    border: 1px solid #E8EAED;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 3px -2px #9098A9;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 150ms ease;
+    color: #5A667F;
+}
+
+.check-box-contents input{
+    width: 20px;
+    height: 20px;
+}
+
+.check-box-contents label{
+   padding: 10px;
+}
+
+#result-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#result-table td, #result-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#result-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00d09c;
+    color: white;
+}

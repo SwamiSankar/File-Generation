@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>File Parser</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css')}}">
+</head>
+<body>
+<div class="container">
+    <h1>File Parser</h1>
+    <p>Select File Name</p>
+    <select id="file-select">
+        <option>select option</option>
+    </select>
+    <p>Select Columns</p>
+    <div class="check-box-contents" id="check-box-contents">
+    </div>
+    <button id="submit-btn" onclick="getData()">Get Data</button>
+    <div class="results-container" style="display: none">
+        <table id="result-table">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="{{url_for('static', filename='scripts.js')}}"></script>
+</body>
+
+</html>
