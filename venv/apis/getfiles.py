@@ -19,8 +19,6 @@ def getFiles():
         for file in files:
             formated_files.append(file.replace('venv\\Files\\', ''))
 
-        print(formated_files)
-
     except:
         return 'NO Files Found', 400
 
