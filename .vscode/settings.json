@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "./venv"
+    ],
+    "python.analysis.extraPaths": [
+        "D:\\Projects\\File-Generation\\venv\\apis"
+    ]
+}
